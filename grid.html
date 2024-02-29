@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: chocolate;
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 20px;
+        }
+
+        .header {
+            background-color: red;
+            grid-column: 1/4;
+            text-align: center;
+            height: 20vh;
+        }
+
+        .menu {
+            background-color: pink;
+            grid-column: 1/4;
+            text-align: center;
+            height: 25vh;
+        }
+
+        .boxOne {
+            background-color: yellow;
+            height: 20vh;
+            text-align: center;
+        }
+
+        .boxTwo {
+            background-color: burlywood;
+            height: 20vh;
+            text-align: center;
+        }
+
+        .slider {
+            background-color: orange;
+            grid-row: 3/5;
+            grid-column: 3/4;
+            text-align: center;
+        }
+
+        .contect {
+            background-color: green;
+            grid-column: 1/3;
+            height: 10vh;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: brown;
+            grid-column: 1/4;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="menu">Menu</div>
+        <div class="boxOne">Box One</div>
+        <div class="boxTwo">Box Two</div>
+        <div class="slider">Slider</div>
+        <div class="contect">Contect</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+
+</html>
